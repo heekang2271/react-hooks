@@ -24,6 +24,15 @@ export default () => (
             <li>
                 <Link to="/useTitle">- useTitle</Link>
             </li>
+            <li>
+                <Link to="/useClick">- useClick</Link>
+            </li>
+            <li>
+                <Link to="/useConfirm">- useConfirm</Link>
+            </li>
+            <li>
+                <Link to="/usePreventLeave">- usePreventLeave</Link>
+            </li>
         </Navigation>
     </Page>
 );

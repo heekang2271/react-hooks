@@ -7,6 +7,9 @@ import home from "../Routes/home";
 import useInput from "../Routes/useInput";
 import useTabs from "../Routes/useTabs";
 import useTitle from "../Routes/useTitle";
+import useClick from "../Routes/useClick";
+import useConfirm from "../Routes/useConfirm";
+import usePreventLeave from "../Routes/usePreventLeave";
 
 export default () => (
     <BrowserRouter>
@@ -16,6 +19,9 @@ export default () => (
             <Route path="/useInput" exact component={useInput} />
             <Route path="/useTabs" exact component={useTabs} />
             <Route path="/useTitle" exact component={useTitle} />
+            <Route path="/useClick" exact component={useClick} />
+            <Route path="/useConfirm" exact component={useConfirm} />
+            <Route path="/usePreventLeave" exact component={usePreventLeave} />
             <Redirect to="/" />
         </Switch>
     </BrowserRouter>

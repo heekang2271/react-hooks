@@ -3,16 +3,16 @@
 Demo : https://heekang2271.github.io/react-hooks/
 
 -   [x] useInput
--   [ ] useTitle
--   [ ] usePageLeave
--   [ ] useClick
+-   [x] useTabs
+-   [x] useTitle
+-   [x] useClick
+-   [x] useConfirm
+-   [x] usePageLeave
 -   [ ] useFadeIn
 -   [ ] useFullscreen
 -   [ ] useHover
 -   [ ] useNetwork
 -   [ ] useNotification
 -   [ ] useScroll
--   [ ] useTabs
 -   [ ] usePreventLeave
--   [ ] useConfirm
 -   [ ] useAxios
