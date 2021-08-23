@@ -3,17 +3,19 @@ import React from "react";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import Header from "./Header";
 
-import Home from "../Routes/Home";
-import UseInput from "../Routes/UseInput";
-import UseTabs from "../Routes/UseTabs";
+import home from "../Routes/home";
+import useInput from "../Routes/useInput";
+import useTabs from "../Routes/useTabs";
+import useTitle from "../Routes/useTitle";
 
 export default () => (
     <BrowserRouter>
         <Header />
         <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/useInput" exact component={UseInput} />
-            <Route path="/useTabs" exact component={UseTabs} />
+            <Route path="/" exact component={home} />
+            <Route path="/useInput" exact component={useInput} />
+            <Route path="/useTabs" exact component={useTabs} />
+            <Route path="/useTitle" exact component={useTitle} />
             <Redirect to="/" />
         </Switch>
     </BrowserRouter>

@@ -46,7 +46,7 @@ export default () => {
     const { currentItem, changeItem } = useTab(0, contents);
 
     return (
-        <Page title="UseTabs">
+        <Page title="useTabs">
             <TabBtnBox>
                 {contents &&
                     contents.map((content, idx) => (

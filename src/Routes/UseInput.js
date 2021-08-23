@@ -40,7 +40,7 @@ export default () => {
     const { value, onChange } = useInput("Mr. ", maxLen);
 
     return (
-        <Page title="UseInput">
+        <Page title="useInput">
             <Input placeholder="name" value={value} onChange={onChange} />
         </Page>
     );

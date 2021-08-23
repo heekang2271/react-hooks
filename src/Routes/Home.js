@@ -16,10 +16,13 @@ export default () => (
     <Page title="Navigation">
         <Navigation>
             <li>
-                <Link to="/useInput">- UseInput</Link>
+                <Link to="/useInput">- useInput</Link>
             </li>
             <li>
-                <Link to="/useTabs">- UseTabs</Link>
+                <Link to="/useTabs">- useTabs</Link>
+            </li>
+            <li>
+                <Link to="/useTitle">- useTitle</Link>
             </li>
         </Navigation>
     </Page>
