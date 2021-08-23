@@ -2,8 +2,8 @@
 
 Demo : https://heekang2271.github.io/react-hooks/
 
+-   [x] useInput
 -   [ ] useTitle
--   [ ] useInput
 -   [ ] usePageLeave
 -   [ ] useClick
 -   [ ] useFadeIn

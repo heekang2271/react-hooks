@@ -16,7 +16,7 @@ export default createGlobalStyle`
         position: relative;
     }
     body, button, input, select, td, textarea, th, a {
-        font-family: 'Noto Sans KR', 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: 'Poppins', 'Noto Sans KR', 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 15px;
         color: #000;
         line-height: 1.5;
@@ -27,10 +27,11 @@ export default createGlobalStyle`
         font-family: inherit;
         color: inherit;
     }
+
     .inner {
         width: 100%;
         margin: 0 auto;
-        max-width: 1280px;
+        max-width: 1000px;
         padding: 0 20px;
     }
 `;
