@@ -18,6 +18,9 @@ export default () => (
             <li>
                 <Link to="/useInput">- UseInput</Link>
             </li>
+            <li>
+                <Link to="/useTabs">- UseTabs</Link>
+            </li>
         </Navigation>
     </Page>
 );

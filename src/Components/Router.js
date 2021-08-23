@@ -5,6 +5,7 @@ import Header from "./Header";
 
 import Home from "../Routes/Home";
 import UseInput from "../Routes/UseInput";
+import UseTabs from "../Routes/UseTabs";
 
 export default () => (
     <BrowserRouter>
@@ -12,6 +13,7 @@ export default () => (
         <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/useInput" exact component={UseInput} />
+            <Route path="/useTabs" exact component={UseTabs} />
             <Redirect to="/" />
         </Switch>
     </BrowserRouter>
