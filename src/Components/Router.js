@@ -10,6 +10,7 @@ import useTitle from "../Routes/useTitle";
 import useClick from "../Routes/useClick";
 import useConfirm from "../Routes/useConfirm";
 import usePreventLeave from "../Routes/usePreventLeave";
+import useBeforeLeave from "../Routes/useBeforeLeave";
 
 export default () => (
     <BrowserRouter>
@@ -22,6 +23,7 @@ export default () => (
             <Route path="/useClick" exact component={useClick} />
             <Route path="/useConfirm" exact component={useConfirm} />
             <Route path="/usePreventLeave" exact component={usePreventLeave} />
+            <Route path="/useBeforeLeave" exact component={useBeforeLeave} />
             <Redirect to="/" />
         </Switch>
     </BrowserRouter>

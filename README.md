@@ -7,12 +7,12 @@ Demo : https://heekang2271.github.io/react-hooks/
 -   [x] useTitle
 -   [x] useClick
 -   [x] useConfirm
--   [x] usePageLeave
+-   [x] usePreventLeave
+-   [x] useBeforeLeave
 -   [ ] useFadeIn
 -   [ ] useFullscreen
 -   [ ] useHover
 -   [ ] useNetwork
 -   [ ] useNotification
 -   [ ] useScroll
--   [ ] usePreventLeave
 -   [ ] useAxios

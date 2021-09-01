@@ -33,6 +33,9 @@ export default () => (
             <li>
                 <Link to="/usePreventLeave">- usePreventLeave</Link>
             </li>
+            <li>
+                <Link to="/useBeforeLeave">- useBeforeLeave</Link>
+            </li>
         </Navigation>
     </Page>
 );
